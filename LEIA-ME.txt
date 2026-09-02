@@ -1,0 +1,48 @@
+PLATAFORMA DE ENSINO POLICIAL - PMRR
+Modulo III - Master en Alta Direccion en Seguridad Internacional
+
+===========================================================
+O QUE TEM NESTA PASTA
+===========================================================
+index.html ....... o aplicativo inteiro (150 questoes ja embutidas)
+capa.png ......... imagem que aparece na previa do WhatsApp
+midia/ ........... 3 podcasts (.m4a) e 3 videos (.mp4)
+
+Tudo somado: 49 MB. Nenhum arquivo passa de 13 MB,
+entao todos cabem no upload pelo navegador do GitHub (limite 25 MB).
+
+===========================================================
+COMO PUBLICAR NO GITHUB PAGES
+===========================================================
+1) github.com  ->  botao "+" (canto superior direito)  ->  New repository
+   Nome:      ensino-policial-pmrr
+   Visibilidade: Public   (no plano gratuito o Pages so funciona em publico)
+   NAO marque "Add a README file"
+   ->  Create repository
+
+2) Na tela que abrir, clique em "uploading an existing file".
+   Arraste PARA A JANELA DO NAVEGADOR:
+      - index.html
+      - capa.png
+      - a pasta midia inteira
+   Espere as 8 barrinhas chegarem a 100%.
+   ->  Commit changes
+
+3) Aba Settings  ->  menu da esquerda, Pages
+   Source: Deploy from a branch
+   Branch: main   /  (root)
+   ->  Save
+
+4) Espere 1 a 2 minutos e recarregue a pagina Settings > Pages.
+   Vai aparecer o endereco:
+   https://SEU-USUARIO.github.io/ensino-policial-pmrr/
+
+===========================================================
+IMPORTANTE
+===========================================================
+- Nunca arraste arquivos para DENTRO de um .zip. Extraia primeiro.
+- Os PDFs dos manuais nao entram aqui: sao material do Centro
+  Universitario de la Guardia Civil. O botao "Abrir" da etapa 1
+  leva ao caderno do Gemini onde o manual esta.
+- O repositorio e publico, mas a pagina tem noindex: o Google nao
+  indexa. So quem tem o link chega nela.
